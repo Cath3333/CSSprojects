@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>data modeling Form & Table</title>
+    <div><h1> Forms & Tables For Data Modeling Assignment </h1></div>
+    <link href='tableform.css' rel='stylesheet'>
+  <head>
+
+  <body>
+    <br><br><br>
+    <form id='form1'>
+      <h2> Form 1: Please input user info</h2>
+      <br>
+      <label for='fname'>What's your first name: </label>
+      <input type='text' name='fname' id='fname'>
+      <br><br>
+
+      <label for ='lname'>What's your last name:</label>
+      <input type='text' name='lname' id='lname'>
+      <br><br>
+
+      <span>Gender:</span>
+      <input type='radio' name='gender' id='f' value='female'>
+      <label for='f'>Female</label>
+      <input type='radio' name='gender' id='m' value='male'>
+      <label for='m'>Male</label>
+      <input type='radio' name='gender' id='o' value='other'>
+      <label for='o'>Other</label>
+      <br><br>
+
+      <label for ='birthday'>Birthday:</label>
+      <input type='date' name='birthday' id='birthday'>
+    </form>
+
+    <form id='form2'>
+      <h2> Form 2: Please input book info </h2>
+      <br>
+      <label for='title'>Book title:</label>
+      <input type='text' name='title' id='title'>
+      <br><br>
+
+      <label for='author'>Author:</label>
+      <input type='text' name='author' id='author'>
+      <br><br>
+
+      <label for='ISBN'>ISBN no.:</label>
+      <input type='number' name='ISBN' id="ISBN">
+      <br><br>
+
+      <label for='type'>Type:</label>
+      <select name='type' id='id'>
+        <option value='novel'>novel</option>
+        <option value='manga'>manga</option>
+        <option value='magazine'>magazine</option>
+        <option value='children'>children</option>
+        <option value='textbook'>textbook</option>
+      </select>
+      <br><br>
+
+      <span> Genre:</span>
+      <input type='checkbox' name='genre' id='romance' value='romance'>
+      <label for='romance'> romance</label>
+      <input type='checkbox' name='genre' id='horror' value='horror'>
+      <label for='horror'> horror</label>
+      <input type='checkbox' name='genre' id='comedy' value='comedy'>
+      <label for='comedy'> comedy</label>
+      <br><br>
+      <input type='checkbox' name='genre' id='tragedy' value='tragedy'>
+      <label for='tragedy'> tragedy</label>
+      <input type='checkbox' name='genre' id='adventure' value='adventure'>
+      <label for='adventure'> adventure</label>
+    </form>
+
+    <br><br><br><br><br><hr><br><br><br>
+
+    <div id='table'>
+    <h2>
+      Basketball Schedule Data
+    </h2>
+    <table>
+      <thead>
+        <tr id='ttitle'>
+          <th scope='col'>Event stage</th>
+          <th scope='col'>date</th>
+          <th scope='col'>time</th>
+          <th scope='col'>Place</th>
+          <th scope='col'>opponent</th>
+          <th scope='col'>Odds</th>
+        </tr>
+
+      </thead>
+      <tbody>
+        <tr>
+          <td>Regular season</td>
+          <td>44170 </td>
+          <td>0.625 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Taoyuan Puyuan Architecture vs. Bank of Taiwan</td>
+          <td>73 - 81</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44170 </td>
+          <td>0.7291666667 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Yulona Zhijie vs. Taiwan Beer</td>
+          <td>69 - 82</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44171 </td>
+          <td>0.625 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Kaohsiung Jiutai Technology vs. Bank of Taiwan</td>
+          <td>86 - 74</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44171 </td>
+          <td>0.7083333333 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Taiwan Beer vs. Taoyuan Puyuan Construction</td>
+          <td>77 - 64</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44175 </td>
+          <td>0.75 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Taoyuan Puyuan Architecture vs. Yulona Zhijie</td>
+          <td>44 - 77</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44175 </td>
+          <td>0.8333333333 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Kaohsiung Jiutai Technology vs. Taiwan Beer</td>
+          <td>77 - 80</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44177 </td>
+          <td>0.625 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Taoyuan Puyuan Architecture vs. Kaohsiung Jiutai Technology</td>
+          <td>66 - 70</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44177 </td>
+          <td>0.7083333333 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Bank of Taiwan vs. Yulona Smart</td>
+          <td>71 - 76</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44178 </td>
+          <td>0.625 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Taiwan Beer vs. Taoyuan Puyuan Construction</td>
+          <td>83 - 79</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44178 </td>
+          <td>0.7083333333 </td>
+          <td>Xinzhuang Stadium</td>
+          <td>Kaohsiung Jiutai Technology vs. Bank of Taiwan</td>
+          <td>76 - 72</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44181 </td>
+          <td>0.75 </td>
+          <td>Peace Stadium</td>
+          <td>Bank of Taiwan vs. Taoyuan Puyuan Building</td>
+          <td>88 - 84</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44181 </td>
+          <td>0.8333333333 </td>
+          <td>Peace Stadium</td>
+          <td>Taiwan Beer vs. Yulona Zhijie</td>
+          <td>77 - 67</td>
+        </tr>
+        <tr>
+          <td>Regular season</td>
+          <td>44182 </td>
+          <td>0.75 </td>
+          <td>Peace Stadium</td>
+          <td>Taoyuan Puyuan Architecture vs. Kaohsiung Jiutai Technology</td>
+          <td>68 - 88</td>
+        </tr>
+      </tbody>
+
+    </table>
+    </div>
+    <br><br><br><br><br>
+
+
+    <footer>Created by Catherine Chow in 2021 :)</footer>
+  </body>
+</html>
